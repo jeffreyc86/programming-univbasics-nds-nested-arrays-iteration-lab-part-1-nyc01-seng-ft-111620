@@ -6,7 +6,7 @@ def find_even_values(src)
   while oa_count < src.size do
     ia_count = 0 
     while ia_count < src[oa_count].size do
-      if src[oa_count][ia_count].even?
+      if src[oa_count][ia_count] % 2 == 0
       p src[oa_count][ia_count]
       end
     ia_count += 1
